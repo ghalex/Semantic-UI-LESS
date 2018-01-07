@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "less": "lessc",
-    "build": "lessc semantic.less semantic.css --clean-css='--s1 --advanced --compatibility=ie8'"
+    "build": "lessc semantic.less dist/semantic.css --clean-css='--s1 --advanced --compatibility=ie8'"
   },
   "repository": {
     "type": "git",

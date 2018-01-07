@@ -6,6 +6,10 @@
   "homepage": "http://www.semantic-ui.com",
   "author": "Jack Lukic <jack@semantic-ui.com>",
   "license": "MIT",
+  "scripts": {
+    "less": "lessc",
+    "build": "lessc semantic.less semantic.css --clean-css='--s1 --advanced --compatibility=ie8'"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Semantic-Org/Semantic-UI-LESS.git"
@@ -15,5 +19,9 @@
   },
   "dependencies": {
     "jquery": "x.*"
+  },
+  "devDependencies": {
+    "less": "^2.7.3",
+    "less-plugin-clean-css": "^1.5.1"
   }
 }
